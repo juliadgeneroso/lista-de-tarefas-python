@@ -27,12 +27,12 @@ elif opcao == "3":
     tarefas.pop(num - 1)
     print("Tarefa removida!")
   else:
-    print(Número inválido.")
+    print("Número inválido.")
 
 elif opcao == "4":
-  print(Saindo...")
-  break
+  print("Saindo...")
+break
 
 else:
-  print(Opção inválida.")
+  print("Opção inválida.")
   
