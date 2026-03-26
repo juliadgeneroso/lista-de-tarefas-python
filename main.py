@@ -18,7 +18,7 @@ elif opcao == "2":
   if not tarefas:
     print("Nenhuma tarefa encontrada.")
   else:
-    for i, tarefa in enumerate(tarefa, 1):
+    for i, tarefa in enumerate(tarefas, 1):
       print(f"{i}. {tarefa}")
 
 elif opcao == "3":
